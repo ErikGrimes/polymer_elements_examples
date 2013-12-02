@@ -1,0 +1,47 @@
+name: polymer_elements_examples
+version: 0.0.13
+authors: 
+- Erik Grimes <erik.grimes@gmail.com>
+- Günter Zöchbauer <guenter@gzoechbauer.com>
+description: >
+  The examples of the Dart port of polymer-elements and polymer-ui-elements 
+  (https://github.com/Polymer/polymer-elements).
+homepage: https://github.com/ErikGrimes/polymer_elements
+documentation: http://erikgrimes.github.io/polymer_elements/docs/index.html
+environment:
+  sdk: ">=1.0.0 <2.0.0"
+dependencies:
+  polymer: ">=0.9.0 < 2.0.0"
+  polymer_elements:
+    path: ../polymer_elements
+  polymer_ui_elements: 
+    path: ../polymer_ui_elements
+dev_dependencies:
+  unittest: any
+transformers:
+- polymer:
+    entry_points:
+    - web/polymer_ajax.html
+    - web/polymer_anchor_point.html
+    - web/polymer_animation.html
+    - web/polymer_collapse.html
+    - web/polymer_cookie.html
+    - web/polymer_file.html
+    - web/polymer_flex_layout.html
+    - web/polymer_grid_layout.html
+    - web/polymer_jsonp.html
+    - web/polymer_key_helper.html
+    - web/polymer_layout.html
+    - web/polymer_list.html
+    - web/polymer_localstorage.html
+    - web/polymer_media_query.html
+    - web/polymer_meta.html
+    - web/polymer_overlay.html
+    - web/polymer_page.html
+    - web/polymer_scrub.html
+    - web/polymer_sectioned_list.html
+    - web/polymer_selection.html
+    - web/polymer_selector.html
+    - web/polymer_shared_lib.html
+    - web/polymer_signals.html
+    - web/polymer_stock.html
